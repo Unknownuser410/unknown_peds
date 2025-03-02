@@ -28,7 +28,7 @@ Mit diesem Script kannst du Spieler-Peds ändern und inklusive Kleidung über Ne
 ### 🎭 Ped setzen
 Setzt einem Spieler ein bestimmtes Ped:
 ```text
-/setped (ID) (Pedname aus Peds.meta)
+/setped (ID) (GTA Name oder Pedname aus Peds.meta)
 ```
 
 ### 🔄 Ped zurücksetzen
