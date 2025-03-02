@@ -1,6 +1,10 @@
 fx_version 'cerulean'
 game 'gta5'
 
+author "Unknown_user410"
+description "Peds Script"
+version "1.0.0"
+
 
 server_script {
 	"@oxmysql/lib/MySQL.lua",
