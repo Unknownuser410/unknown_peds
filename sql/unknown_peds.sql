@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD COLUMN `ped` varchar(50) DEFAULT NULL;
