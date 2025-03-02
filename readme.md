@@ -11,9 +11,9 @@ Mit diesem Script kannst du Spieler-Peds ändern und inklusive Kleidung über Ne
 
 # 🛠️ Installation
 ### Addon-Peds nutzen:
-1️⃣ **Streaming-Dateien** in den `stream`-Ordner packen.
-2️⃣ **.meta-Dateien** in den `meta`-Ordner verschieben.
-3️⃣ `.meta`-Datei in der `fxmanifest.lua` registrieren.
+- 1️⃣ **Streaming-Dateien** in den `stream`-Ordner packen.
+- 2️⃣ **.meta-Dateien** in den `meta`-Ordner verschieben.
+- 3️⃣ `.meta`-Datei in der `fxmanifest.lua` registrieren.
 
 ### Script starten:
 - Füge das Script in den `resources`-Ordner ein.
