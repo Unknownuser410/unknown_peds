@@ -8,6 +8,7 @@ Mit diesem Script kannst du Spieler-Peds ändern und inklusive Kleidung über Ne
 # 📌 Voraussetzungen (Dependencies)
 - ESX
 - Skinchanger
+- oxmysql
 
 # 🛠️ Installation
 ### Addon-Peds nutzen:
