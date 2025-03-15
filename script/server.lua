@@ -24,12 +24,13 @@ end, true)
 
 --Load Ped on Serverestart--
 RegisterNetEvent("unknown_peds:getped", function()
-    xPlayer = ESX.GetPlayerFromId(source)
+    local src = source
+    local xPlayer = ESX.GetPlayerFromId(src)
 
     MySQL.Async.fetchAll('SELECT ped FROM users WHERE identifier = @identifier', { ['@identifier'] = xPlayer.identifier}, function(result)
         local ped = result[1].ped
         if ped then 
-            TriggerClientEvent("unknown_peds:setped", ped)
+            TriggerClientEvent("unknown_peds:setped", src, ped)
         end
     end)
 end)
