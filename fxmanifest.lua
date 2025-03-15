@@ -3,7 +3,7 @@ game 'gta5'
 
 author "Unknown_user410"
 description "Peds Script"
-version "1.0.0"
+version "1.0.1"
 
 
 server_script {
